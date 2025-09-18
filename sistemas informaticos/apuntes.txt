@@ -1,0 +1,17 @@
+    *18/9/25 * -> clase pendiente
+
+---CREAR/NAVEGAR PROGRAMAS---
+
+    .sh -> crea un programa de editor de texto
+
+    nano (programa).sh -> crea un programa
+        -> dentro de el debes poner *#!/bin/bash* para que entienda que es codigo.
+        -> _echo "contenido"_ funciona como un print al ejecutal el programa crerado
+        -> chmod 777 (programa) da permisos de administrador sobre el programa
+        -> ./(programa).sh ejecuta el programa
+
+---NAVEGACIÓN---
+
+    cd -> avanza / cd .. -> retrocede / ls -> *lista* del contenido / cat -> abre el archivo dentro de una carpeta
+
+    el simbolo "/" significa inicio del disco duro, el principio del contenido, el antecedente al usuario. vale para retroceder
