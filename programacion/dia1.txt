@@ -1,4 +1,7 @@
     * 17/9/25 * -> Hoy aprendimos a crear, pushear y pullear repositorios y su contenido. "save -> commit -> pushear"
-    * 18/9/25 * -> aprendemos que es una variable y los tipos junto al tio de información que pueden reener:
+
+    * 18/9/25 * -> aprendemos que es una variable y los tipos junto al tio de información que pueden retener:
+
                     Boolean: V/F    Cons: Constante     Let: local/ var: global
+
                     int: numero entero / string: texto / float: numeros con decimales / double: numeros con más decimales
