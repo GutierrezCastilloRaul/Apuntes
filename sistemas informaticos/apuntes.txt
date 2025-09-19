@@ -1,6 +1,6 @@
     *18/9/25 * -> clase pendiente
 
----CREAR/NAVEGAR PROGRAMAS---
+    1. ---CREAR/NAVEGAR PROGRAMAS---
 
     .sh -> crea un programa de editor de texto
 
@@ -10,7 +10,7 @@
         -> chmod 777 (programa) da permisos de administrador sobre el programa
         -> ./(programa).sh ejecuta el programa
 
----NAVEGACIÓN---
+    2. ---NAVEGACIÓN---
 
     cd -> avanza / cd .. -> retrocede / ls -> *lista* del contenido / cat -> abre el archivo dentro de una carpeta
 
