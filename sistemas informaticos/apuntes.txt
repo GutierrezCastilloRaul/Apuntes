@@ -1,4 +1,4 @@
-    *18/9/25 * -> clase pendiente
+*18/9/25 * -> clase pendiente
 
     1. ---CREAR/NAVEGAR PROGRAMAS---
 
@@ -9,9 +9,26 @@
         -> _echo "contenido"_ funciona como un print al ejecutal el programa crerado
         -> chmod 777 (programa) da permisos de administrador sobre el programa
         -> ./(programa).sh ejecuta el programa
+        -> $(("numeros")) para hacer números, de o contrario son cadenas de texto
 
     2. ---NAVEGACIÓN---
 
-    cd -> avanza / cd .. -> retrocede / ls -> *lista* del contenido / cat -> abre el archivo dentro de una carpeta
+• cd -> avanza / cd .. -> retrocede / ls -> *lista* del contenido / cat -> abre el archivo dentro de una carpeta
 
-    el simbolo "/" significa inicio del disco duro, el principio del contenido, el antecedente al usuario. vale para retroceder
+• el simbolo "/" significa inicio del disco duro, el principio del contenido, el antecedente al usuario. vale para retroceder
+
+
+    cualquier variable debe nombrarse con "$" para distinguirlas de otras palabras clave
+    $"n" guarda el valor del dato dado x el usuario despues de la orden de ejecución en dicho lugar. *EJ:*
+
+        ./prueba1.sh hola que tal ## hola = $1 ## que = $2 ## tal = $3 ##
+
+    en total -> ejecuta el archivo y si utilizamos el "echo $1 $2 $2" imprime en la terminal los primeros tres valores que le asignemos
+
+    ***prueba de suma***
+    
+        echo(($1 + $2)) -> primer parametro + segundo parametro.
+
+        echo(($1 $2 $3)) -> primer parametro, operacion del segundo parametro, tercer parámetro
+            
+            -> el primer parentesis define que son numeros, el segundo o de interior, afirma que son los dos primeros parametros
