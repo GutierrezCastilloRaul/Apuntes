@@ -1,1 +1,42 @@
     * 18/9/25 * -> clase pendiente
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    *** 25/9/25 *** (dia grande) 
+    Hoy hemos echo unos juegos de "git branching" para aprender a movernos por los repositorios
+    y con ello hemos aprendido unos comandos pero antes, unos conceptos basicos:
+
+    - *HEAD* es el termino donde se encuentra el usuario, podemos salir de un archivo e 
+        incluso "detach" de ellos. Podemos movernos libremente sin necesidad de traer 
+        archivos de esta manera.
+    
+    - *tags* son un "adjetivo" para los repositorios correspondientes, se pone:
+        git tag _nombre del tag_ · _nombre del repositorio_ 
+         *** movernos a un commit con un tag hará q nos desprendamos del archivo que llevemos
+         encima
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ##### COMANDOS #####
+
+    ¡¡ IMPORTANTE !! -> Todos los comandos empiezan con "git"
+
+    - git commit -> crea un commit, un conjuto de cambios al repositorio. Se pueden "desincronizar"
+        dando lugar a las ramas (branches)
+    
+    - git branch -> crea una ramificación, NO te lleva a ella, solo la crea, se tiene que 
+        "commitear" por separado entrando en la rama correspondiente
+
+        + branches + -> una rama, o "branch" suele tener otro color a las demás diferenciandolas así
+            entre sí y de sus contenidos.
+
+    - git checkout -> te mueve a ti y a la rama creada que tengas seleccionada al 
+        repositorio a elegir. EJ: git checkout C1 : nos lleva a nosotros y el archivo que tengamos
+        seleccionado o "encima" a un commit llamado "C1" (por el juego de la web)
+
+    ### - BRANCHES PRO MAX ### -> Branches tmb se pueden utilizar para mover archivos a cualquier commit
+        gracias al comando -f ( -f implica que se va a hacer una fuerza)
+            · primer parametro: archivo a mover
+            · segundo parametro: commit al que va destinado
+    
+        EJ:   _git branch -f main C2_  
