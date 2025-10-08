@@ -130,7 +130,7 @@ PARA HACER QUE LA PRIMERA LERA SEA MAYUSCULA:
 
 ```xsd
 <xs:element name="telefono" type="xs:string" minOccurs="0" maxOccurs="3"/>
-<!--  xs:maxOccurs="unbounded">
+<!--  xs:maxOccurs="unbounded" = infinitas veces puede aparecer / infinitas ocurrencias>
 ```
 
 ### ATRIBUTOS DE UN ELEMENTO: ###
